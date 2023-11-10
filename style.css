@@ -1,0 +1,40 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.main {
+    background: linear-gradient(90deg, rgba(252,0,255,1) 0%, rgba(0,219,222,1) 100%);
+    width: 100%;
+    height: 100vh;
+    margin-top: -48px;
+    position: relative;
+}
+.container.child {
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 800px;
+    border-radius: 30px;
+}
+input#username {
+    border-radius: 30px;
+    margin: 0px 25px;
+}
+
+td {
+    text-align: right;
+}
+
+button#addUser {
+    border-radius: 30px;
+}
+
+.hed h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: initial;
+    font-size: 50px;
+}
